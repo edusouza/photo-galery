@@ -1,7 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: photo
-  description: Dominio de fotos
+  name: galeria-fotos
+  description: Domínio de galeria de fotos
+  links:
+    - url: https://minhagaleria.com.br
+      title: Site da aplicação
 spec:
   owner: eduardo
